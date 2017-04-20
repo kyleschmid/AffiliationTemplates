@@ -60,6 +60,18 @@ $ ant deployNPSP
 UTIL_AffiliationTemplate.CreateTriggerHandlers();
 ```
 
+## Uninstallation
+
+* Undeploy using ant
+
+```sh
+$ cd AffiliationTemplates
+$ ant undeploy
+```
+
+* Remove Trigger Handlers for AFFL_Template_TDTM and AFFLTMP_Template_TDTM (HEDA-only)
+* Erase the Affiliation Template object under Setup>Create>Custom Objects>Deleted Objects
+
 ## Using Affiliation Templates
 
 Once installed, you'll want to set up your first Affiliation Template. To do so, follow these instructions:
