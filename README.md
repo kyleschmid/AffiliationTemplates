@@ -10,8 +10,10 @@ This repository contains a modified version of the <a href="https://github.com/u
 
 ## Requirements
 
-* Installation of the <a href="https://github.com/SalesforceFoundation/HEDAP" >Higher-Ed Data Architecture (HEDA)</a> version 1.20 or later (managed or open-source).
+* Installation of the <a href="https://github.com/SalesforceFoundation/HEDAP" >Higher-Ed Data Architecture (HEDA)</a> version 1.20 or later (managed or open-source)
+
 -or-
+
 * Installation of <a href="https://github.com/SalesforceFoundation/Cumulus" >Non-Profit Success Pack (NPSP)</a>
 
 ## Installation
