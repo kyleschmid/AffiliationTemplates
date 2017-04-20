@@ -69,7 +69,8 @@ $ cd AffiliationTemplates
 $ ant undeploy
 ```
 
-* Remove Trigger Handlers for AFFL_Template_TDTM and AFFLTMP_Template_TDTM (HEDA-only)
+* Delete Trigger Handler for AFFL_Template_TDTM
+* Delete Trigger Handler for AFFLTMP_Template_TDTM (HEDA-only)
 * Erase the Affiliation Template object under Setup>Create>Custom Objects>Deleted Objects
 
 ## Using Affiliation Templates
