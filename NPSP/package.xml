@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AffiliationTemplates</fullName>
+    <types>
+        <members>AFFL_Template_TDTM</members>
+        <members>AFFL_Template_TEST</members>
+        <members>AFFLTMP_Template_TDTM</members>
+        <members>AFFLTMP_Template_TEST</members>
+        <members>UTIL_AffiliationTemplate</members>
+        <members>UTIL_AffiliationTemplate_TEST</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>TDTM_AffiliationTemplate</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AffiliationTemplate__c.Account__c</members>
+        <members>AffiliationTemplate__c.Description__c</members>
+        <members>AffiliationTemplate__c.Object__c</members>
+        <members>AffiliationTemplate__c.Primary__c</members>
+        <members>AffiliationTemplate__c.Role__c</members>
+        <members>AffiliationTemplate__c.FieldNameLower__c</members>
+        <members>AffiliationTemplate__c.FieldName__c</members>
+        <members>AffiliationTemplate__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>AffiliationTemplate__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>AffiliationTemplate__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>AffiliationTemplate__c-Affiliation Template Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>AffiliationTemplate__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>37.0</version>
+</Package>
