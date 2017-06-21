@@ -120,11 +120,11 @@ public class UTIL_AffiliationTemplate {
         
         handlers.add(new Trigger_Handler__c(Active__c = true, Asynchronous__c = false,
             Class__c = 'AFFL_Template_TDTM', Load_Order__c = 5, Object__c = 'Affiliation__c',
-            Trigger_Action__c = 'AfterInsert;AfterUpdate;AfterDelete'));
+            Trigger_Action__c = 'AfterInsert;AfterUpdate;AfterDelete', User_Managed__c = true));
         
         handlers.add(new Trigger_Handler__c(Active__c = true, Asynchronous__c = false,
             Class__c = 'AFFLTMP_Template_TDTM', Load_Order__c = 1, Object__c = 'AffiliationTemplate__c',
-            Trigger_Action__c = 'AfterInsert;AfterUpdate;AfterDelete'));
+            Trigger_Action__c = 'AfterInsert;AfterUpdate;AfterDelete', User_Managed__c = true));
         
         insert handlers;
     }
