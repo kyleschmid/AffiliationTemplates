@@ -120,7 +120,7 @@ public class UTIL_AffiliationTemplate {
         
         handlers.add(new npsp__Trigger_Handler__c(npsp__Active__c = true, npsp__Asynchronous__c = false,
             npsp__Class__c = 'AFFL_Template_TDTM', npsp__Load_Order__c = 5, npsp__Object__c = 'npe5__Affiliation__c',
-            npsp__Trigger_Action__c = 'AfterInsert;AfterUpdate;AfterDelete'));
+            npsp__Trigger_Action__c = 'AfterInsert;AfterUpdate;AfterDelete', npsp__User_Managed__c = true));
         
         insert handlers;
     }
