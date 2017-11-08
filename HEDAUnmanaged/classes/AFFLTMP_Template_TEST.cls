@@ -214,8 +214,8 @@ private class AFFLTMP_Template_TEST {
     static void setup() {
         
         List<TDTM_Global_API.TdtmToken> tokens = TDTM_Global_API.getTdtmConfig();
-        tokens.add(new TDTM_Global_API.TdtmToken('AFFL_Template_TDTM', 'Affiliation__c', 'AfterInsert;AfterUpdate;AfterDelete', 5));
-        tokens.add(new TDTM_Global_API.TdtmToken('AFFLTMP_Template_TDTM', 'AffiliationTemplate__c', 'AfterInsert;AfterUpdate;AfterDelete', 1));
+        tokens.add(new TDTM_Global_API.TdtmToken('AFFL_Template_TDTM', 'Affiliation__c', 'AfterInsert;AfterUpdate;AfterDelete', 5.0));
+        tokens.add(new TDTM_Global_API.TdtmToken('AFFLTMP_Template_TDTM', 'AffiliationTemplate__c', 'AfterInsert;AfterUpdate;AfterDelete', 1.0));
         TDTM_Global_API.setTdtmConfig(tokens);
         
         Account a1 = new Account(Name = 'test_acc_1');

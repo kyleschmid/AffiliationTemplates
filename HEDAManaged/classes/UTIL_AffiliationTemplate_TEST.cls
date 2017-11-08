@@ -158,8 +158,8 @@ private class UTIL_AffiliationTemplate_TEST {
     static void setup() {
         
         List<hed.TDTM_Global_API.TdtmToken> tokens = hed.TDTM_Global_API.getTdtmConfig();
-        tokens.add(new hed.TDTM_Global_API.TdtmToken('AFFL_Template_TDTM', 'Affiliation__c', 'AfterInsert;AfterUpdate;AfterDelete', 5));
-        tokens.add(new hed.TDTM_Global_API.TdtmToken('AFFLTMP_Template_TDTM', 'AffiliationTemplate__c', 'AfterInsert;AfterUpdate;AfterDelete', 1));
+        tokens.add(new hed.TDTM_Global_API.TdtmToken('AFFL_Template_TDTM', 'Affiliation__c', 'AfterInsert;AfterUpdate;AfterDelete', 5.0));
+        tokens.add(new hed.TDTM_Global_API.TdtmToken('AFFLTMP_Template_TDTM', 'AffiliationTemplate__c', 'AfterInsert;AfterUpdate;AfterDelete', 1.0));
         hed.TDTM_Global_API.setTdtmConfig(tokens);
         
         Account a1 = new Account(Name = 'test_acc_1');
